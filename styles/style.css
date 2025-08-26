@@ -197,9 +197,11 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
+  width: 399px;
   height: 298px;
   overflow-y: auto;
   gap: 30px;
+  scrollbar-gutter: stable;
 }
 
 .content__list {
